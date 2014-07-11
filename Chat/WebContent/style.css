@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+a{
+	text-decoration:none;
+}
+/*Limpiar elementos float*/
+.limpiar:after{
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.limpiar{
+	display:inline-block;
+}
+.limpiar{
+	display:block;
+}
+*html .limpiar{
+	height:1px;
+}
+/*Fin Limpiar float*/
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	width:100%;
+	background:#FFF;
+}
+
+#container{
+	width:850px;
+	margin:auto;
+}
+header{
+	height:110px;
+	width:100%;
+	background:url(img/banner.png) no-repeat left;
+	text-align:right;
+	font-size: 18px;
+	letter-spacing:3px;
+}
+nav{
+	width:100%;
+	margin-bottom:15px;
+}
+nav ul{
+	list-style:none;
+	padding:0;
+	margin:5px;
+}
+nav ul li{
+	display:inline;
+}
+nav ul li a{
+	cursor:pointer;
+	color:rgba(0,0,0,0.65);
+	letter-spacing:2px;
+	text-shadow:0px 0px 2px rgba(0,0,0,0.2);
+	padding:5px 8px;
+	margin:5px;
+	background:rgba(0,0,0,0.22);
+	-webkit-box-shadow:0px 2px 2px rgba(0,0,0,0.35);
+	-webkit-border-radius:3px;
+	-webkit-transition: background 0.3s;
+        -moz-box-shadow:0px 2px 2px rgba(0,0,0,0.35);
+	-moz-border-radius:3px;
+	-moz-transition: background 0.3s;
+}
+nav ul li a:hover{
+	background: rgba(0,0,0,0.27);
+}
+#cont{
+	width:100%;
+}
+#ventanaConversacion{
+	width:480px;
+	height:360px;
+	float:left;
+	padding:10px;
+	background: rgba(0,0,0,0.22);
+	-webkit-border-radius:4px;
+	-webkit-box-shadow:0px 0px 8px rgba(0,0,0,0.75);
+        -moz-border-radius:4px;
+	-moz-box-shadow:0px 0px 8px rgba(0,0,0,0.75);
+}
+#ventanaConversacionInt{
+	font-family:Arial, Helvetica, sans-serif;
+	padding:5px;
+	width:466px;
+	height:316px;
+	background:rgba(255,255,255,0.6);
+	border: 2px solid rgba(0,0,0,0.28);
+	overflow-y:scroll;
+	overflow-x:hidden;
+}
+#ventanaConversacion h2{
+	color:rgba(0,0,0,0.55);
+	text-shadow:1px 1px 2px rgba(255,255,255,1);
+	padding:0;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#ventanaUsuarios{
+	width:320px;
+	padding:10px;
+	margin-left:10px;
+	height:360px;
+	float:left;
+	background: rgba(0,0,0,0.22);
+	-webkit-border-radius:4px;
+	-webkit-box-shadow:0px 0px 8px rgba(0,0,0,0.75);
+        -moz-border-radius:4px;
+	-moz-box-shadow:0px 0px 8px rgba(0,0,0,0.75);
+}
+#ventanaUsuarios h4{
+	color:rgba(0,0,0,0.55);
+	text-shadow:1px 1px 2px rgba(255,255,255,1);
+	padding:0;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#chat{
+	margin-bottom: 10px;
+}
+#enviarMensaje{
+	width:100%;
+}
+#txtMensaje{
+	float:left;
+	border: 4px solid rgba(0,0,0,0.28);
+	-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.3);
+        -moz-box-shadow:2px 2px 2px rgba(0,0,0,0.3);
+	width:430px;
+	height:70px;
+	margin:auto;
+}
+#enviarMSJ{
+	cursor:pointer;
+	text-align:center;
+	background:rgba(0,0,0,0.22);
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:rgba(0,0,0,0.65);
+	letter-spacing:1.7px;
+	text-shadow:1px 1px 1px rgba(255,255,255,1);
+	border:1px solid rgba(0,0,0,0.25);
+	-webkit-border-radius:0px 4px 0px 4px;
+	-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.3);
+        -moz-border-radius:0px 4px 0px 4px;
+	-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.3);
+	float:left;
+	padding:20px 10px;
+	margin:10px;
+	width:70px;
+	-webkit-transition: -webkit-box-shadow 0.3s;
+        -moz-transition: -webkit-box-shadow 0.3s;
+}
+
+#noEnviar{
+    cursor:pointer;
+	text-align:center;
+	background:rgba(0,0,0,0.22);
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:rgba(0,0,0,0.65);
+	letter-spacing:1.7px;
+	text-shadow:1px 1px 1px rgba(255,255,255,1);
+	border:1px solid rgba(0,0,0,0.25);
+	-webkit-border-radius:0px 4px 0px 4px;
+	-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.3);
+        -moz-border-radius:0px 4px 0px 4px;
+	-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.3);
+	float:left;
+	padding:20px 10px;
+	margin:10px;
+	width:70px;
+}
+
+#enviarMSJ:active{
+	-webkit-box-shadow:0px 0px 0px rgba(0,0,0,0);
+        -moz-box-shadow:0px 0px 0px rgba(0,0,0,0);
+}
+#ingresar{
+	width:500px;
+	padding:10px;
+	display:none;
+	opacity:0;
+}
+
+#registrar{
+	width:500px;
+	padding:10px;
+	display:none;
+	opacity:0;
+}
