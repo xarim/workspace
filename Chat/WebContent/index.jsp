@@ -1,13 +1,13 @@
-
+<%--Primer comentario --%>
 <%@page import="Sesion.Sesiones"%>
 <%@page import="Entidades.Mensaje"%>
 <%@page import="BLL.ChatBLL"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
-
-
 <!DOCTYPE HTML>
 <html>
+
+<%--SEGUNDO COMENTARIO --%>
 <head>
 <meta charset="utf-8">
 <title>Chat Mesinger</title>
