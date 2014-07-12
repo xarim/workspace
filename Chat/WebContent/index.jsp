@@ -1,4 +1,4 @@
-<%--Primer comentario --%>
+<%--Pr comentario --%>
 <%@page import="Sesion.Sesiones"%>
 <%@page import="Entidades.Mensaje"%>
 <%@page import="BLL.ChatBLL"%>
@@ -6,8 +6,7 @@
 
 <!DOCTYPE HTML>
 <html>
-
-<%--SEGUNDO COMENTARIO --%>
+<%--UNDO CORIO --%>
 <head>
 <meta charset="utf-8">
 <title>Chat Mesinger</title>
